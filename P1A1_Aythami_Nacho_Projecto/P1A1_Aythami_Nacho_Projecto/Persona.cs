@@ -14,5 +14,11 @@ namespace P1A1_Aythami_Nacho_Projecto
             Nombre = nombre;
             Edad = edad;
         }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine("Nombre: " + Nombre);
+            Console.WriteLine("Edad: " + Edad);
+        }
     }
 }
