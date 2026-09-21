@@ -20,5 +20,9 @@ namespace P1A1_Aythami_Nacho_Projecto
             Console.WriteLine("Nombre: " + Nombre);
             Console.WriteLine("Edad: " + Edad);
         }
+        public bool EsMayorDeEdad()
+        {
+            return Edad >= 18;
+        }
     }
 }
