@@ -20,5 +20,15 @@ namespace P1A1_Aythami_Nacho_Projecto
             Console.WriteLine("Nombre: " + Nombre);
             Console.WriteLine("Edad: " + Edad);
         }
+
+        public void SetNombre(string nuevoNombre)
+        {
+            Nombre = nuevoNombre;
+        }
+
+        public string GetNombre()
+        {
+            return Nombre;
+        }
     }
 }
